@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(35, 45, 102, 0.5),rgb(16, 97, 93)),url(img/School-Area.jpg) ;
+   position: fixed;
+   background-size: cover;
+
+} 
+
+
+
+.dd {
+    height: 50px;
+    width: 60px;
+    padding: 0px 30px;
+
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(34, 34, 31, 0.575) ;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+    
+    margin: 10px 5px ;
+    
+    line-height: 35px;
+    
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica;
+    padding: 4px;
+}
+.navbar ul li a.activ,
+.navbar ul li a:hover{
+    background-color: rgb(236, 238, 243);
+    border-radius: 6px;
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.897);
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform:translate(-50%,-50%);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: aliceblue;
+font-size: 22px;
+text-align: center;
+
+}
+.center h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(245, 244, 238);
+}
+.center h1.active,
+.center h1:hover{
+    color: chartreuse;
+    transition: .9s;
+}
+.center p{
+    color: rgba(119, 223, 51, 0.959);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+
+
+.button button{
+   
+    width: 100px;
+    
+    padding: 1%;
+    margin: 2%;
+    border: 1px solid rgb(245, 241, 241);
+    border-radius: 8px;
+    background-color:  rgb(64, 106, 131) ;
+    color: white;
+}
+.button button.activ,
+.button button:hover{
+    background-color: rgb(194, 112, 18);
+    color: black;
+    transition: 0.9s;
+}
+
+   
+    
